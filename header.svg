@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Shirow">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/>
+      <stop offset="0.5" stop-color="#101623"/>
+      <stop offset="1" stop-color="#0b0e14"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="436" y1="0" x2="767" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glowPulse">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="0.55" stop-color="#06b6d4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#94a3b8" opacity="0.12"/>
+    </pattern>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#dots)"/>
+
+  <circle cx="985" cy="55" r="240" fill="url(#glowViolet)" filter="url(#blur)"/>
+  <circle cx="215" cy="290" r="250" fill="url(#glowCyan)" filter="url(#blur)"/>
+
+  <circle cx="600" cy="165" r="155" fill="url(#glowPulse)">
+    <animate attributeName="opacity" values="0.2;0.45;0.2" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="436" y="188" text-anchor="start" fill="url(#nameGrad)" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="96" font-weight="800" letter-spacing="3">S
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.0875;0.8125;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <text x="493" y="188" text-anchor="start" fill="url(#nameGrad)" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="96" font-weight="800" letter-spacing="3">h
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.1125;0.7875;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <text x="554" y="188" text-anchor="start" fill="url(#nameGrad)" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="96" font-weight="800" letter-spacing="3">i
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.1375;0.7625;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <text x="587" y="188" text-anchor="start" fill="url(#nameGrad)" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="96" font-weight="800" letter-spacing="3">r
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.1625;0.7375;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <text x="628" y="188" text-anchor="start" fill="url(#nameGrad)" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="96" font-weight="800" letter-spacing="3">o
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.1875;0.7125;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <text x="690" y="188" text-anchor="start" fill="url(#nameGrad)" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="96" font-weight="800" letter-spacing="3">w
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.2125;0.6875;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="1;0;1;1" keyTimes="0;0.0875;0.8125;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="436" y="112" width="6" height="84" rx="3" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.0875;0.1125;0.7875;0.8125;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="498" y="112" width="6" height="84" rx="3" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.1125;0.1375;0.7625;0.7875;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="557" y="112" width="6" height="84" rx="3" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.1375;0.1625;0.7375;0.7625;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="589" y="112" width="6" height="84" rx="3" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.1625;0.1875;0.7125;0.7375;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="637" y="112" width="6" height="84" rx="3" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.1875;0.2125;0.6875;0.7125;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="695" y="112" width="6" height="84" rx="3" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="1">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.2125;0.6875;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="779" y="112" width="6" height="84" rx="3" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="600" y="232" width="0" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="x" values="600;600;510;510;600;600" keyTimes="0;0.25;0.31;0.675;0.75;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="0;0;180;180;0;0" keyTimes="0;0.25;0.31;0.675;0.75;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="510" cy="234" r="4" fill="#22d3ee">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.31;0.675;0.75;1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="690" cy="234" r="4" fill="#a78bfa">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.31;0.675;0.75;1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
